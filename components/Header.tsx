@@ -8,15 +8,17 @@ function Header() {
                 height={100}
                 className="cursor-pointer object-contain"
             />
+
+            <ul className="hidden space-x-4 md:flex">
+                <li className="headerLink">Home</li>
+                <li className="headerLink">TV Shows</li>
+                <li className="headerLink">Moives</li>
+                <li className="headerLink">New & Popular</li>
+                <li className="headerLink">My List</li>
+            </ul>
         </div>
     
-        <ul className="hidden space-x-4 md:flex">
-            <li className="">Home</li>
-            <li className="">TV Shows</li>
-            <li className="">Moives</li>
-            <li className="">New & Popular</li>
-            <li className="">My List</li>
-        </ul>
+        
     </header>
   )
 }
